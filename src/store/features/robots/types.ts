@@ -6,7 +6,7 @@ export interface RobotStructureWithoutId {
 }
 
 export interface RobotStructure extends RobotStructureWithoutId {
-  id: string;
+  _id: string;
 }
 export interface RobotsStateStructure {
   robots: RobotStructure[];
