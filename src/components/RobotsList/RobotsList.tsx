@@ -1,4 +1,5 @@
 import { useAppSelector } from "../../store/hooks";
+import RobotsListStyled from "./RobotsListStyled";
 
 const RobotsList = (): React.ReactElement => {
   const robots = useAppSelector((state) => {
@@ -6,13 +7,13 @@ const RobotsList = (): React.ReactElement => {
   });
 
   return (
-    <div>
+    <RobotsListStyled>
       {robots.map(() => (
         <li>
           <div></div>
         </li>
       ))}
-    </div>
+    </RobotsListStyled>
   );
 };
 export default RobotsList;
