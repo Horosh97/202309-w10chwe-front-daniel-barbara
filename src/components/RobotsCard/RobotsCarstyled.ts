@@ -27,9 +27,15 @@ const RobotsCardStyled = styled.article`
     }
 
     &__resistance {
+      font-size: 5cqw;
+      color: ${({ theme }) => theme.colors.fontColor};
+      text-shadow: 0.1px 0.1px 3px ${({ theme }) => theme.colors.accentColor};
     }
 
     &__speed {
+      font-size: 5cqw;
+      color: ${({ theme }) => theme.colors.fontColor};
+      text-shadow: 0.1px 0.1px 3px ${({ theme }) => theme.colors.accentColor};
     }
   }
 `;
