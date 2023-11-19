@@ -11,13 +11,15 @@ const HeaderStyled = styled.header`
 
   .active {
     color: ${({ theme }) => theme.colors.accentColor};
+    text-shadow: 0.1px 0.1px 16px ${({ theme }) => theme.colors.fontColor};
+    font-weight: bold;
   }
   .header {
     &__title {
       margin: 16px;
       font-family: ${({ theme }) => theme.typography.fontFamily};
       color: ${({ theme }) => theme.colors.fontColor};
-      text-shadow: 0.1px 0.1px 2px ${({ theme }) => theme.colors.fontColor};
+      text-shadow: 0.1px 0.1px 1px ${({ theme }) => theme.colors.fontColor};
       text-transform: capitalize;
       font-weight: 600;
       font-size: 2rem;
@@ -33,7 +35,7 @@ const HeaderStyled = styled.header`
       font-size: 1.2rem;
       font-weight: 500;
       color: ${({ theme }) => theme.colors.fontColor};
-      text-shadow: 0.1px 0.1px 2px ${({ theme }) => theme.colors.fontColor};
+      text-shadow: 0.1px 0.1px 1px ${({ theme }) => theme.colors.fontColor};
     }
   }
 `;
