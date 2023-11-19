@@ -32,7 +32,7 @@ const HeaderStyled = styled.header`
       text-align: center;
       align-items: center;
       gap: 16px;
-      font-size: 1.2rem;
+      font-size: 1rem;
       font-weight: 500;
       color: ${({ theme }) => theme.colors.fontColor};
       text-shadow: 0.1px 0.1px 1px ${({ theme }) => theme.colors.fontColor};
