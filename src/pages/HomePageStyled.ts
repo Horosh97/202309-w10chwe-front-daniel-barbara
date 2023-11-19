@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const HomePage = styled.div`
+const HomePageStyled = styled.div`
   margin: 20px 16px;
   .main-heading {
     margin: 16px;
@@ -12,4 +12,4 @@ const HomePage = styled.div`
   }
 `;
 
-export default HomePage;
+export default HomePageStyled;

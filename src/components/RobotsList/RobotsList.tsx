@@ -8,8 +8,8 @@ const RobotsList = (): React.ReactElement => {
 
   return (
     <RobotsListStyled>
-      {robots.map(() => (
-        <li>
+      {robots.map((robot) => (
+        <li key={robot._id}>
           <div></div>
         </li>
       ))}
