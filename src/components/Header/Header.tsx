@@ -1,8 +1,9 @@
 import { NavLink } from "react-router-dom";
+import HeaderStyled from "./HeaderStyled";
 
 const Header = (): React.ReactElement => {
   return (
-    <div className="header">
+    <HeaderStyled className="header">
       <h1 className="header__title">ROBOTS</h1>
       <ul className="header__navigation">
         <li>
@@ -12,7 +13,7 @@ const Header = (): React.ReactElement => {
           <NavLink to="/add-robot">Create Robot</NavLink>
         </li>
       </ul>
-    </div>
+    </HeaderStyled>
   );
 };
 
