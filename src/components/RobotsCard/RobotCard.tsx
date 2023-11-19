@@ -13,9 +13,11 @@ const RobotCard = ({
       <div className="card">
         <img className="card__image" src={image} alt={`robot ${name}`} />
       </div>
-      <h3 className="card__name">{name}</h3>
-      <span className="card__resistance">Resistence: {resistence}</span>
-      <span className="card__speed">Speed: {speed}</span>
+      <div className="card__box">
+        <h3 className="card__name">{name}</h3>
+        <span className="card__resistance">Resistence: {resistence}</span>
+        <span className="card__speed">Speed: {speed}</span>
+      </div>
     </RobotCardStyled>
   );
 };
