@@ -5,7 +5,7 @@ const HomePageStyled = styled.div`
   .main-heading {
     margin: 16px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: bold;
     text-transform: uppercase;
     color: ${({ theme }) => theme.colors.fontColor};
