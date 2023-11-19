@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { RobotStructureWithoutId } from "../../store/features/robots/types";
+import RobotFormStyled from "./RobotFormStyled";
 
 interface RobotFormProps {
   actionOnSubmit: (robot: RobotStructureWithoutId) => void;
@@ -31,7 +32,11 @@ const RobotForm = ({ actionOnSubmit }: RobotFormProps): React.ReactElement => {
   const { name, image, resistence, speed } = newRobot;
 
   return (
-    <form className="robot-form" autoComplete="off" onSubmit={onFormSubmit}>
+    <RobotFormStyled
+      className="robot-form"
+      autoComplete="off"
+      onSubmit={onFormSubmit}
+    >
       <div className="robot-form__block">
         <label className="robot-form__label" htmlFor="name">
           Robot Name:
@@ -87,7 +92,7 @@ const RobotForm = ({ actionOnSubmit }: RobotFormProps): React.ReactElement => {
       <button className="robot-form__button" type="submit">
         Create Robot
       </button>
-    </form>
+    </RobotFormStyled>
   );
 };
 export default RobotForm;
