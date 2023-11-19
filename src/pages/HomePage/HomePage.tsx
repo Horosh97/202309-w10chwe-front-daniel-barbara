@@ -1,9 +1,9 @@
 import { useEffect } from "react";
-import useRobotsApi from "../hooks/useRobotsApi";
-import { useAppDispatch } from "../store/hooks";
-import { loadRobotsActionCreator } from "../store/features/robots/robotsSlice";
+import useRobotsApi from "../../hooks/useRobotsApi";
+import { useAppDispatch } from "../../store/hooks";
+import { loadRobotsActionCreator } from "../../store/features/robots/robotsSlice";
 import HomePageStyled from "./HomePageStyled";
-import RobotsList from "../components/RobotsList/RobotsList";
+import RobotsList from "../../components/RobotsList/RobotsList";
 
 const HomePage = (): React.ReactElement => {
   const dispatch = useAppDispatch();

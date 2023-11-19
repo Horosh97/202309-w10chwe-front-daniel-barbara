@@ -1,5 +1,5 @@
-import robotsMock from "../mocks/robotsMocks";
-import renderWithProviders from "../testUtils/renderWithProviders";
+import robotsMock from "../../mocks/robotsMocks";
+import renderWithProviders from "../../testUtils/renderWithProviders";
 import HomePage from "./HomePage";
 import { screen } from "@testing-library/react";
 

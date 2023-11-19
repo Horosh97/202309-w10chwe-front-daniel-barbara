@@ -10,7 +10,7 @@ const mainTheme: DefaultTheme = {
     fontColor: "#090909",
     fontSecondColor: "#355A53",
     secondBackColor: "#CFF0F2",
-    accentColor: "#1E3330",
+    accentColor: "#00961b",
   },
 };
 
