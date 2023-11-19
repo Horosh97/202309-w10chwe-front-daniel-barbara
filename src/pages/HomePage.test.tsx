@@ -5,7 +5,7 @@ import { screen } from "@testing-library/react";
 
 describe("Given a HomePage page", () => {
   describe("When it is called", () => {
-    test("Test it should show a heading with the text Robots", () => {
+    test("Then it should show a heading with the text Robots", () => {
       const expectedText = "Robots";
 
       renderWithProviders(<HomePage />, robotsMock);
