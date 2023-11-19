@@ -19,7 +19,7 @@ const HomePage = (): React.ReactElement => {
   return (
     <HomePageStyled>
       <main>
-        <h1 className="main-heading">Robots</h1>
+        <h1 className="main-heading">Robots List:</h1>
         <RobotsList />
       </main>
     </HomePageStyled>

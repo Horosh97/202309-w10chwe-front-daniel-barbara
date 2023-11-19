@@ -1,5 +1,5 @@
 import { useAppSelector } from "../../store/hooks";
-import RobotsCard from "../RobotsCard/RobotsCard";
+import RobotCard from "../RobotsCard/RobotCard";
 import RobotsListStyled from "./RobotsListStyled";
 
 const RobotsList = (): React.ReactElement => {
@@ -11,7 +11,7 @@ const RobotsList = (): React.ReactElement => {
     <RobotsListStyled>
       {robots.map((robot) => (
         <li key={robot._id}>
-          <RobotsCard robot={robot} />
+          <RobotCard robot={robot} />
         </li>
       ))}
     </RobotsListStyled>
