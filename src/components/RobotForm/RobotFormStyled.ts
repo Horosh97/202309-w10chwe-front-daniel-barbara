@@ -23,7 +23,7 @@ const RobotFormStyled = styled.form`
       width: 100%;
       padding-top: 16px;
       padding-bottom: 16px;
-      color: ${({ theme }) => theme.colors.fontColor};
+      color: ${({ theme }) => theme.colors.backgroundColor};
       font-size: 1rem;
       background-color: ${({ theme }) => theme.colors.fontSecondColor};
       border-radius: ${({ theme }) => theme.borderRadius};
@@ -35,6 +35,7 @@ const RobotFormStyled = styled.form`
       background-color: ${({ theme }) => theme.colors.fontSecondColor};
       border-radius: ${({ theme }) => theme.borderRadius};
       box-shadow: 0 1px 3px ${({ theme }) => theme.colors.fontColor};
+      color: ${({ theme }) => theme.colors.backgroundColor};
     }
   }
 `;

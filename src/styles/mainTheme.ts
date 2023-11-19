@@ -1,7 +1,7 @@
 import { DefaultTheme } from "styled-components";
 
 const mainTheme: DefaultTheme = {
-  borderRadius: "20px",
+  borderRadius: "5px",
   typography: {
     fontFamily: "'Lexend Variable', sans-serif;",
   },
