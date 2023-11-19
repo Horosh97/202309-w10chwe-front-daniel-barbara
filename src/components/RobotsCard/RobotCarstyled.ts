@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const RobotsCardStyled = styled.article`
+const RobotCardStyled = styled.article`
   padding-right: 5px;
   padding-left: 5px;
   display: flex;
@@ -40,4 +40,4 @@ const RobotsCardStyled = styled.article`
   }
 `;
 
-export default RobotsCardStyled;
+export default RobotCardStyled;
