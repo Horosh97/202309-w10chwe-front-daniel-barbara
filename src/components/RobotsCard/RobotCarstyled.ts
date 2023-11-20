@@ -5,8 +5,7 @@ const RobotCardStyled = styled.article`
   padding-top: 25px;
   padding-bottom: 25px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
   gap: 14px;
   background-color: ${({ theme }) => theme.colors.secondBackColor};
   border-radius: 25px;
@@ -36,7 +35,7 @@ const RobotCardStyled = styled.article`
     }
 
     &__name {
-      font-size: 8cqw;
+      font-size: 6cqw;
       color: ${({ theme }) => theme.colors.fontColor};
       text-shadow: 0.1px 0.1px 3px ${({ theme }) => theme.colors.accentColor};
     }
